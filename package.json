@@ -7,10 +7,10 @@
     "model"
   ],
   "scripts": {
-    "dev:client": "npm --workspace client run dev",
-    "dev:server": "npm --workspace server run dev",
-    "build:client": "npm --workspace client run build",
+    "dev:client": "node init && npm --workspace client run dev",
+    "dev:server": "node init && npm --workspace server run dev",
+    "build:client": "node init && npm --workspace client run build",
     "preview:client": "npm --workspace client run preview",
-    "start:server": "npm --workspace server run start"
+    "start:server": "node init && npm --workspace server run start"
   }
 }

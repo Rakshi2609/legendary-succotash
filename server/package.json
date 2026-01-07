@@ -9,7 +9,7 @@
     "express": "^4.19.2"
   },
   "scripts": {
-    "dev": "node src/index.js",
-    "start": "node src/index.js"
+    "dev": "node init && node src/index.js",
+    "start": "node init && node src/index.js"
   }
 }
